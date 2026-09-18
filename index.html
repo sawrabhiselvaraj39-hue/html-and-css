@@ -1,3 +1,27 @@
-<h1 style = "background-color:red;color: white";>Apple</h1>
-<h2 style= "color: yellow;background-color: blue";>banana</h2>
-<h3 style= "background-color:black; color:white";>Mango</h3>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Event Registration</title>
+    </head>
+    <body>
+        <h1>Event Registration</h1>
+        <h2>Register for an Event</h2>
+        <form action="inductionProgram.html" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="event">Select Event:</label><br>
+            <select id="event" name="event" required>
+                <option value="">--Please choose an event--</option>
+                <option value="workshop">Workshop</option>
+                <option value="seminar">Seminar</option>
+                <option value="conference">Conference</option>
+                <option value="induction Program">Induction Program</option>
+            </select><br><br>
+            <input type="submit" value="Register">
+        </form>
+        </body>
+</html>
